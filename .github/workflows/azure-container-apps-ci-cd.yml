@@ -7,7 +7,7 @@ env:
   RESOURCE_GROUP: rg-containerapps-github-actions
 
 on:
-  push:
+  #push:
     #branches: [ "main" ]
     #paths:
     #  - '.github/workflows/**'
