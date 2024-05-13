@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.run_number }}  # Adjust tag to Docker Hub format
+          tags: sebastianwypior/containerapps-album-api:${{ github.run_number }}  # Adjust tag to Docker Hub format
           file: ./backend_api/backend_api_csharp/Dockerfile
           context: ./backend_api/backend_api_csharp
 
