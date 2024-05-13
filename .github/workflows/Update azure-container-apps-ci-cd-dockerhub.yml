@@ -1,7 +1,7 @@
 name: Build and deploy a container to an Azure Container Apps - ACA using Dockerhub
 
 env:
-  IMAGE_NAME: sebastianwypior/containerapps-album-api
+  IMAGE_NAME: containerapps-album-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
   RESOURCE_GROUP: rg-containerapps-github-actions
